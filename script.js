@@ -1,7 +1,7 @@
  window.addEventListener('scroll', function() {
             let scrollPosition = window.scrollY;
             if (scrollPosition < 400) {
-                document.body.style.backgroundColor = '#1E1E2E'; // Dark Blue
+                document.body.style.backgroundColor = '#D3D3D3'; // Dark Blue
             } else if (scrollPosition < 800) {
                 document.body.style.backgroundColor = '#FF6F61'; // Warm Red
             } else if (scrollPosition < 1200) {
