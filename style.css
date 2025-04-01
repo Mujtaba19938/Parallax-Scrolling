@@ -1,0 +1,55 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+      background-color: #1E1E2E;
+      color: #ECEFF4;
+      text-align: center;
+      transition: background-color 0.5s ease;
+  }
+
+  .parallax {
+      position: relative;
+      height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      font-weight: bold;
+  }
+
+  .parallax-1 {
+      background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+  }
+
+  .parallax-2 {
+      background-image: url('https://source.unsplash.com/1600x900/?mountains,sunset');
+  }
+
+  .parallax-3 {
+      background-image: url('https://source.unsplash.com/1600x900/?forest');
+  }
+
+  .parallax-4 {
+      background-image: url('https://source.unsplash.com/1600x900/?city,night');
+  }
+
+  .parallax-5 {
+      background-image: url('https://source.unsplash.com/1600x900/?desert');
+  }
+
+  .parallax-6 {
+      background-image: url('https://source.unsplash.com/1600x900/?ocean');
+  }
+
+  .content {
+      padding: 50px;
+      font-size: 1.2rem;
+  }
